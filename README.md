@@ -2,7 +2,7 @@
 This demo takes two integer command line inputs: `X` and `Z`. It will then spawn `X` threads, which will then increment a shared integer variable `Z` times each. The threads will log their status and use mutex locks to avoid race conditions.
 
 # Build
-This demo can be built with `g++ multithreading.cpp -o multithreading -std=c++11`
+Compile with `g++ multithreading.cpp -o multithreading -std=c++11`
 
 # Run
 Once the demo is compiled, you can run it with `./multithreading X Z`
